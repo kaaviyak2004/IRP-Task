@@ -1,0 +1,78 @@
+/* Navbar */
+.navbar .logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.cart-icon i {
+    font-size: 24px;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    width: 200px;
+    top: 70px;
+    left: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    height: 100vh;
+}
+
+.sidebar .filter-section {
+    margin-bottom: 20px;
+}
+
+.rarity-colors {
+    display: flex;
+    gap: 10px;
+}
+
+.rarity-circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social-media .social-icon {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.social-media .social-icon img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+/* Product Cards */
+.product-cards {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.product-card {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.product-card .card-line {
+    height: 5px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.right-align {
+    margin-left: auto; /* Pushes the element to the right */
+}
